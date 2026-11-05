@@ -12,7 +12,7 @@ import { useState } from "react";
 import type { LoanRepayment } from "../../../schemas/loanSchema";
 import { ddCurrency } from "../../../utils/data-format-helper";
 import AppDropDown from "../../generic/form/AppDropDown";
-import usePaymentMethodList from "../../../hooks/usePaymentmethodList";
+import usePaymentMethodList from "../../../hooks/usePaymentMethodList";
 
 interface PaymentConfirmationModalProps {
     repayment: LoanRepayment;

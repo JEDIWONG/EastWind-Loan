@@ -1,6 +1,5 @@
 import { Card, Typography } from "@mui/material";
 import { LineChart } from "@mui/x-charts/LineChart";
-import SectionTitle from "../generic/typography/SectionTitle";
 
 interface DashboardLineChartData {
     label: string;
@@ -13,7 +12,6 @@ interface DashboardLineChartProps {
     yAxisLabel?: string;
     data: DashboardLineChartData[];
     chartHeight?: number;
-    chartWidth?: number;
 }
 
 const DashboardLineChart = ({
@@ -22,7 +20,6 @@ const DashboardLineChart = ({
     xAxisLabel,
     yAxisLabel, 
     chartHeight = 300,
-    chartWidth,
 }: DashboardLineChartProps) => {
     return (
         <Card
