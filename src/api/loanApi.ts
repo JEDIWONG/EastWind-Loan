@@ -15,7 +15,7 @@ export const getLoanApplicationByBorrowerId = async () => {
 export const getLoanApplicationByLenderId = async (filterName:  string) => {
 
     const { data } = await api.get(
-        `/loans/lender/loan-application/`,
+        `/loans/lender/loan-application`,
         {params:{
             'filter_name':filterName,
         }}
@@ -46,7 +46,7 @@ export const getLoanOfferListByBorrowerId = async () => {
 export const getLoanOfferListByLenderId = async (filterName:string) => {
 
     const { data } = await api.get(
-        `/loans/lender/loan-offer/`,
+        `/loans/lender/loan-offer`,
         {params:{
             'filter_name': filterName,
         }}
@@ -60,7 +60,7 @@ export const getLoanDisbursementListByLenderId = async (statusName:string) => {
     const  lenderId = getLenderId();
 
     const { data } = await api.get(
-        `/loans/lender/loan-disbursement/`,
+        `/loans/lender/loan-disbursement`,
         {params:{
             'lender_id': lenderId,
             'disburse_status_name': statusName,
@@ -84,7 +84,7 @@ export const getActiveLoanListByBorrowerId = async () => {
 export const getActiveLoanListByLenderId = async (filterName:string) => {
 
     const { data } = await api.get(
-        `/loans/lender/active-loan/`,
+        `/loans/lender/active-loan`,
         {
             params:{
                 'filter_name':filterName,
@@ -141,7 +141,7 @@ export const getLoanDetailsById = async (id:string) => {
 export const getLoanRepaymentListByLoanId = async (loanId:string, statusName:string) => {
 
     const { data } = await api.get(
-        `/loans/loan-repayments/`,
+        `/loans/loan-repayments`,
         {params:{
             'loan_id':loanId, 
             'repayment_status_name':statusName
@@ -154,7 +154,7 @@ export const getLoanRepaymentListByLoanId = async (loanId:string, statusName:str
 export const getLoanListByBorrowerId = async () => {
 
     const { data } = await api.get(
-        `/loans/borrower/loan/`
+        `/loans/borrower/loan`
     );
 
     return data;
