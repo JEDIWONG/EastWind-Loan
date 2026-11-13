@@ -88,7 +88,7 @@ const BorrowerRegister = ({ onSubmit }: BorrowerRegisterProps) => {
                 <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
-                    className="absolute right-3 top-9 text-slate-400 transition hover:text-slate-700"
+                    className="absolute right-3 top-2 text-slate-400 transition hover:text-slate-700"
                     aria-label={showPassword ? "Hide password" : "Show password"}
                 >
                     {showPassword ? (
@@ -126,7 +126,7 @@ const BorrowerRegister = ({ onSubmit }: BorrowerRegisterProps) => {
                     onClick={() =>
                         setShowConfirmPassword(!showConfirmPassword)
                     }
-                    className="absolute right-3 top-9 text-slate-400 transition hover:text-slate-700"
+                    className="absolute right-3 top-2 text-slate-400 transition hover:text-slate-700"
                     aria-label={
                         showConfirmPassword ? "Hide password" : "Show password"
                     }

@@ -34,7 +34,7 @@ const RegisterLeftSection = ({
                 <h1 className="text-3xl font-bold leading-tight text-white xl:text-4xl">
                     {isBorrower
                         ? "Start Your Loan Journey"
-                        : "Become an EastWind Lending Partner"}
+                        : "Become a Lending Partner"}
                 </h1>
 
                 <p className="mt-5 max-w-md text-sm leading-7 text-slate-400">

@@ -104,12 +104,6 @@ const Register = () => {
                             className="mx-auto mb-8 h-8 w-auto object-contain"
                         />
 
-                        <div className="mb-3 inline-flex rounded-full bg-yellow-50 px-3 py-1.5 text-xs font-semibold text-yellow-700">
-                            {isBorrower
-                                ? "BORROWER REGISTRATION"
-                                : "LENDER REGISTRATION"}
-                        </div>
-
                         <h2 className="text-3xl font-bold tracking-tight text-slate-900">
                             {isBorrower
                                 ? "Create your account"
