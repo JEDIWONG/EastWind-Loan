@@ -53,6 +53,7 @@ const LoanApplicationDetailHeader = ({
                     <Box>
                         <Typography
                             variant="h6"
+                            sx={{fontWeight:"800"}}
                         >
                             Loan Application
                         </Typography>

@@ -46,6 +46,7 @@ const LoanDetailsHeader = ({ loanData }: LoanDetailsHeaderProps) => {
                 <Box>
                     <Typography
                         variant="h6"
+                        sx={{ fontWeight: 700, lineHeight: 1.4 }}
                     >
                         {loanData.loan_product_name}
                     </Typography>

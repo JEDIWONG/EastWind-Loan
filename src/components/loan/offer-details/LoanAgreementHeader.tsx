@@ -20,6 +20,7 @@ const LoanAgreementHeader = ({ loan }) => {
                     <Box >
                         <Typography
                             variant="h6"
+                            sx={{ fontWeight: 700, lineHeight: 1.4 }}
                         >
                             Loan Agreement
                         </Typography>
