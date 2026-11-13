@@ -8,8 +8,7 @@ const AppTheme = createTheme({
             contrastText: "#111827",
         },
         secondary: {
-            main: "#111827",
-            contrastText: "#FFFFFF",
+            main: "#00a1ff",
         },
         background: {
             default: "#F8FAFC",
@@ -28,7 +27,7 @@ const AppTheme = createTheme({
     },
 
     typography: {
-        fontFamily: "Inter, Arial, sans-serif",
+        fontFamily: "Inter, sans-serif",
         button: {
             textTransform: "none",
             fontWeight: 600,
