@@ -14,8 +14,7 @@ import LenderRegister from "../../components/auth/LenderRegister";
 import { useRouteHelper } from "../../utils/route-helper";
 
 const Register = () => {
-    const [registrationType, setRegistrationType] =
-        useState<RegistrationType>("borrower");
+    const [registrationType, setRegistrationType] = useState<RegistrationType>("borrower");
 
     const [errorMessage, setErrorMessage] = useState(""); 
 

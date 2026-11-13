@@ -52,12 +52,12 @@ const Header = () => {
                             Explore
                         </Link>
 
-                        <Link
+                        {/* <Link
                             to={AppRoutes.compare}
                             className="text-sm font-medium text-gray-600 transition hover:text-gray-950"
                         >
                             Calculator
-                        </Link>
+                        </Link> */}
 
                         {isLoggedIn ? (
                             <AccountDropdown />

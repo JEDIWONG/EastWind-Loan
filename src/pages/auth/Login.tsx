@@ -10,6 +10,7 @@ import google_logo from '../../assets/google.png';
 import { useRouteHelper } from '../../utils/route-helper';
 import LoadingOverlay from '../../components/generic/loading/LoadingOverlay';
 import { login } from '../../auth/login';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -72,12 +73,12 @@ const Login = () => {
                 Not yet a member?
               </p>
 
-              <a
-                href="/auth/register/"
+              <Link
+                to="/auth/register"
                 className="font-bold text-indigo-500 transition hover:text-indigo-600"
               >
                 Create Account for New User
-              </a>
+              </Link>
 
             </div>
 
