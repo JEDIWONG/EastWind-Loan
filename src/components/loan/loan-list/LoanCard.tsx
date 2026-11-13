@@ -32,7 +32,7 @@ const LoanCard = ({ loan }) => {
         <Card
             elevation={1}
             sx={{
-                boxShadow:"1px 1px 3px #f8fafc", 
+                boxShadow:"0px 0px 10px #e5e5e5", 
                 borderRadius: 3,
                 p: 3,
             }}

@@ -15,14 +15,20 @@ const BorrowerLoanDashboard = () => {
 
     return (
         <>
-            <div className="mx-20 my-10 min-h-screen">
-                <SectionTitle
-                    title="My Loans"
-                    desc="Overview of all your loans"
-                />
 
-                <LoanCardList loanData={loanList} />
+            <div className="my-10 min-h-screen">
+                <div className="mx-10">
+                    <SectionTitle
+                        title="My Loans"
+                        desc="Overview of all your loans"
+                    />
+                </div>
+
+                <div className="mx-0 my-10 ">
+                    <LoanCardList loanData={loanList} />
+                </div>
             </div>
+           
         </>
     );
 };
